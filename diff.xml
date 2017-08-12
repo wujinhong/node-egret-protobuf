@@ -1,0 +1,18 @@
+<application>
+  <component name="DiffManager">
+    <enableFiles value="true" />
+    <filesTool value="/usr/local/bin/bcomp" newValue="/usr/local/bin/bcomp" />
+    <mergeTool value="/usr/local/bin/bcomp" newValue="/usr/local/bin/bcomp" />
+    <mergeToolParameters value="%1 %2 %3 %4" />
+  </component>
+  <component name="ExternalDiffSettings">
+    <option name="DIFF_ENABLED" value="false" />
+    <option name="DIFF_DEFAULT" value="true" />
+    <option name="DIFF_EXE_PATH" value="/usr/local/bin/bcomp" />
+    <option name="DIFF_PARAMETERS" value="%1 %2 %3" />
+    <option name="MERGE_ENABLED" value="false" />
+    <option name="MERGE_EXE_PATH" value="/usr/local/bin/bcomp" />
+    <option name="MERGE_PARAMETERS" value="%1 %2 %3 %4" />
+    <option name="MERGE_TRUST_EXIT_CODE" value="true" />
+  </component>
+</application>
