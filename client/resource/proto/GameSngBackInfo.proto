@@ -1,0 +1,30 @@
+import "resource/proto/PlayerOp.proto";
+import "resource/proto/SubPool.proto";
+option java_package = "com.xt.texas.message";
+option java_outer_classname = "GameSngBackInfoProto";
+
+
+message SngPlayer {
+    optional int64 playerId=1;//玩家ID
+    optional string name=2;//玩家名称
+    optional int32 position=3;//玩家座位
+    optional string headUrl=4;//头像URL
+    optional int32 totalRound=5;//总局数
+    optional int32 winRound=6;//赢的局数
+    optional int32 loseRound=7;//输的局数
+    optional int32 betRound=8;//下注的局数
+    optional int32 showCardRound=9;//翻牌的局数
+    optional int64 totalGold=10;//总筹码
+    optional int32 sex=11;//玩家性别
+    optional int32 grade=12;//玩家sng排名
+}
+
+
+//SNG_BACK = 43
+message GameSngBackInfo {
+
+	repeated SubPool		sub_pool_list = 1;					//当局分池信息         SUB_POOL = 13
+	repeated PlayerOp		player_op_list = 2;					//当局玩家操作信息  PLAYER_OP = 7
+	repeated SngPlayer  	game_over_player_list = 3;			//已结束的玩家信息  
+
+}

@@ -1,0 +1,26 @@
+import "resource/proto/GameResult.proto";
+import "resource/proto/ShowCardSet.proto";
+option java_package = "com.xt.texas.message";
+option java_outer_classname = "GameSettlementProto";
+
+
+message GameSettlement {
+
+	optional ShowCardSet 		show_card_set = 1; 			//CmdValues.SHOW_CARDS   	协议数据 无延迟时间
+    optional PUBLIC_CARDS 		public_cards=2;				//CmdValues.PUBLIC_CARDS 	协议数据  
+	optional SHOW_MAX_CARDS 	show_max_cards=3;			//CmdValues.SHOW_MAX_CARDS 	协议数据  
+	optional int32 				game_result_delay = 4;		//游戏结果延迟时间
+	optional GameResult 		game_result = 5;			//CmdValues.GAME_RESULT 	游戏结果协议数据
+	optional int32				next_match_time = 6;		//游戏结算结束时间
+	message PUBLIC_CARDS {
+        required int32 	delay = 1;				//延迟时间
+        required string publicCardString = 2;	//公开牌数据
+    }
+	
+	message SHOW_MAX_CARDS {
+        required int32 	delay = 1;				//延迟时间
+		required int32 	handType = 2;			//手牌类型
+        required string cardData = 3;			//手牌数据
+    }
+		
+}

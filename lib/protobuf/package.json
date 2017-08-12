@@ -1,0 +1,4 @@
+{
+	"name": "protobuf",
+	"typings": "typings/protobuf.d.ts"
+}

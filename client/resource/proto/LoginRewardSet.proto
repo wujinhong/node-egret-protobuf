@@ -1,0 +1,13 @@
+
+option java_package = "com.xt.texas.message";
+
+option java_outer_classname = "LoginRewardSetProto";
+message LoginRewardSet {
+    repeated LoginReward loginRewards=1;
+    required int32 loginCount=2;
+    message LoginReward{
+        optional int32 loginCount=1;
+        optional int64 rewardGold=2;
+        optional int32 taskId=3;
+    }
+}

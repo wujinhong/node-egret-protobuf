@@ -1,0 +1,12 @@
+
+option java_package = "com.xt.texas.message";
+
+option java_outer_classname = "PlayerOpProto";
+message PlayerOp {
+    optional int64 playerId = 1;
+    optional int32 opType=2;//操作类型
+    optional int64 betGold=3;//下注额
+    optional int64 tableGold=4;//桌上金钱
+    optional int32 seqNo=5;//操作序号
+    optional bool isAllIn=6;
+}
