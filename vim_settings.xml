@@ -9,8 +9,10 @@
         <mark key="." line="59" column="4" />
         <mark key="^" line="59" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1502551295589">
+      <file name="/Dummy.txt" timestamp="1502552553384">
         <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" timestamp="1502185705817">
         <mark key="'" line="18" column="45" />
@@ -25,6 +27,7 @@
         <mark key="^" line="5" column="30" />
         <mark key="." line="5" column="30" />
       </file>
+      <file name="/load.js" timestamp="1502552508127" />
       <file name="/Users/Shared/vf/node/client/src/socket/SocketConnector.ts" timestamp="1502186725605">
         <mark key="[" line="87" column="50" />
         <mark key="]" line="87" column="44" />
@@ -96,10 +99,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text encoding="base64">CQ==</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text encoding="base64">CQ==</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
