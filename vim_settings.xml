@@ -9,7 +9,7 @@
         <mark key="." line="59" column="4" />
         <mark key="^" line="59" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1502549380133">
+      <file name="/Dummy.txt" timestamp="1502550089599">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" timestamp="1502185705817">
@@ -90,8 +90,8 @@
       <jump line="18" column="45" filename="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">CnZhciBtYWluOk1haW4gPSBuZXcg</text>
       </register>
       <register name="-" type="4">
         <text encoding="base64">KyA=</text>
@@ -99,37 +99,33 @@
       <register name="0" type="2">
         <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
       </register>
-      <register name="1" type="2">
-        <text encoding="base64">ICAgIAo=</text>
+      <register name="1" type="4">
+        <text encoding="base64">CnZhciBtYWluOk1haW4gPSBuZXcg</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">aW1wb3J0ICogYXMgaHR0cCBmcm9tICd3cyc7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">aW1wb3J0ICogYXMgaHR0cCBmcm9tICd3cyc7Cg==</text>
       </register>
       <register name="5" type="2">
         <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
         <text encoding="base64">ICAgICAgICAgICAgLy8gd3NzLmJpbmFyeVR5cGUgPSAnCg==</text>
       </register>
-      <register name="7" type="4">
+      <register name="8" type="4">
         <text>blob';
             // wss.binaryType = 'arraybuffer';</text>
       </register>
-      <register name="8" type="2">
+      <register name="9" type="2">
         <text encoding="base64">ICAgICAgICAK</text>
-      </register>
-      <register name="9" type="4">
-        <text>this.game_status= 0;
-        this.id=0;
-        this.name = &quot;new&quot;;
-        this.start=0;
-        this.alive = 1;</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
