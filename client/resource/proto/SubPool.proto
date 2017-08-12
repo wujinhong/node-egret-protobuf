@@ -1,0 +1,9 @@
+
+option java_package = "com.xt.texas.core.message";
+
+option java_outer_classname = "SubPoolProto";
+message SubPool{
+
+    optional string pools=1;//奖池,逗号分隔
+
+}

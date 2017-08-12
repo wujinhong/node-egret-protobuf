@@ -1,0 +1,25 @@
+option java_package = "com.xt.texas.core.message";
+option java_outer_classname = "PlayerInfoSetProto";
+
+message PlayerInfo {
+    optional int64 playerId=1;//玩家ID
+    optional string name=2;//玩家名称
+    optional int32 position=3;//玩家座位
+    optional int64 tableGold=4;//牌桌筹码
+    optional int64 betGold=5;//当前圈下注筹码
+    optional int32 status=6;//显示状态
+    optional int64 remainTime=7;//剩余操作时间
+    optional string playerCards=8;//玩家手牌
+    optional string headUrl=9;//头像URL
+    optional int32 totalRound=10;//总局数
+    optional int32 winRound=11;//赢的局数
+    optional int32 loseRound=12;//输的局数
+    optional int32 betRound=13;//下注的局数
+    optional int32 showCardRound=14;//翻牌的局数
+    optional int64 totalGold=15;//总筹码
+    optional int32 sex=16;//玩家性别
+}
+
+message PlayerInfoSet {
+    repeated PlayerInfo playerInfoList=1;
+}

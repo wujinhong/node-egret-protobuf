@@ -1,0 +1,10 @@
+
+option java_package = "com.xt.texas.message";
+
+option java_outer_classname = "HeartBeatProto";
+
+message HeartBeat {
+    optional int64 clientTime = 1; //客户端当前时间
+}
+
+

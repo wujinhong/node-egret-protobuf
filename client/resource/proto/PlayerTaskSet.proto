@@ -1,0 +1,19 @@
+message PlayerTaskSet {
+    repeated SubTypePlayerTaskList subTypePlayerTask=1;
+    message SubTypePlayerTaskList{
+        required int32 subType=1;//任务二级类型
+        repeated PlayerTask playerTasks = 2;
+    }
+    message PlayerTask {
+        required int32 taskId = 1;//玩家ID
+        optional string desc = 2 [default = ""];//任务说明
+        optional int64 rewardGold=3;//奖励金币
+        optional int64 autal=4;//当前进行到的值
+        optional int32 taskType=5;//任务类型 1 主线任务 2 活动任务 3 每日任务
+        optional int32 taskStatus=6;//任务状态
+        optional int64 expiredTime=7;//过期时间
+        optional string title=8;//任务标题
+        optional int32 except=9;//任务完成目标值
+        optional int32 subType=10;//任务二级类型
+    }
+}

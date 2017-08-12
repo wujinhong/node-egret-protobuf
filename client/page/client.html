@@ -1,0 +1,47 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>WebSocket Echo Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+    var ws = new WebSocket("ws://localhost:8181");
+    ws.onopen = function (e) {
+        console.log('Connection to server opened');
+    };
+    ws.onmessage = function (p1)
+    {
+        console.log( p1.data );
+        if( p1.data == "alert" )
+        {
+            alert( "receive alert" );
+        }
+    };
+    function sendMessage() {
+        ws.send($('#message').val());
+    }
+    </script>
+</head>
+
+<body >
+    <div class="vertical-center">
+        <div class="container">
+            <p>&nbsp;</p>
+            <form role="form" id="chat_form" onsubmit="sendMessage(); return false;">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="message" id="message"
+                           placeholder="Type text to echo in here" value="" />
+                </div>
+                <button type="button" id="send" class="btn btn-primary"
+                        onclick="sendMessage();">
+                    Send!
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

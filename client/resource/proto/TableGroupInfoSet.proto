@@ -1,0 +1,17 @@
+
+option java_package = "com.xt.texas.message";
+option java_outer_classname = "TableGroupInfoSetProto";
+message TableGroupInfoSet {
+    optional int32 groupId =1;//system,custom,sng 0 1 2
+    repeated TableGroupInfo tableGroupInfoList=2;
+
+    message TableGroupInfo{
+        optional int32 groupId=1;
+        optional int64 smallBlind=2;
+        optional int64 bigBlind=3;
+        optional int64 minCarry=4;
+        optional int64 maxCarry=5;
+        optional int64 defaultCarry=6;
+        optional string groupName=7;
+    }
+}

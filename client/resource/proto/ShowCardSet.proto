@@ -1,0 +1,14 @@
+option java_package = "com.xt.texas.message";
+
+option java_outer_classname = "ShowCardSetProto";
+message ShowCardSet{
+    repeated ShowCard showCards=1;//玩家手牌信息列表
+
+}
+message ShowCard{
+        optional int64 playerId=1;//玩家ID
+        optional int32 position=2;//位置
+        optional string playerCards=3;//手牌
+        optional string pokerHandCards=4;//成手牌组成的字符串
+        optional int32 cardType=5;//牌型类型
+}

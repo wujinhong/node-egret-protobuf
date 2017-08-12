@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "游戏后端开发",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gordon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.20",
+    "@types/ws": "^3.0.2"
+  }
+}

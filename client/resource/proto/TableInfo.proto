@@ -1,0 +1,30 @@
+import "resource/proto/PlayerInfoSet.proto";
+option java_package = "com.xt.texas.core.message";
+option java_outer_classname = "TableInfoProto";
+
+message TableInfo {
+    optional int32 tableId=1;//牌桌ID
+    optional string tableName=2;//牌桌名
+    optional PlayerInfoSet playerInfoSet=3;//玩家信息
+    optional int64 smallBlindGold=4;//小盲注
+    optional int64 bigBlindGold=5;//大盲注
+    optional int32 smallBlindPosition=6;//小盲注位置
+    optional int32 bigBlindPosition=7;//大盲注位置
+    optional int32 dealerPos=8;//庄家位置
+    optional string publicCards=9;//显示公共牌
+    optional string pools=10;//奖池列表
+    optional int32 minCarray=11;//最小携带
+    optional int32 maxCarray=12;//最大携带
+    optional int32 maxUser=13;//最大玩家数
+    optional string realPublicCards=14;//5张公共牌
+    optional int32 thinkTime=15;//思考时间
+    optional int32 tableSeq=16;//牌桌自增序号,机器人用
+    optional int32 tableType=17;//0 为速配  1为用户自己创建的房间
+    optional int32 groupId=18;//场次ID
+    optional bool running=19;//是否游戏中
+    optional int64 owner=20;//房主ID
+    optional bool autoStart=21;//是否自动开始
+    optional int32 defaultCarry=22;//默认携带
+    optional int64 reward1=23;//sng第1名奖金
+    optional int64 reward2=24;//sng第2名奖金
+}
