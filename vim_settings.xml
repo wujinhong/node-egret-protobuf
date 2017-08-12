@@ -9,7 +9,7 @@
         <mark key="." line="59" column="4" />
         <mark key="^" line="59" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1502550430411">
+      <file name="/Dummy.txt" timestamp="1502551295589">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" timestamp="1502185705817">
@@ -30,6 +30,11 @@
         <mark key="]" line="87" column="44" />
         <mark key="." line="87" column="44" />
         <mark key="^" line="87" column="44" />
+      </file>
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/src/Main.ts" timestamp="1502551190286">
+        <mark key="[" line="67" column="26" />
+        <mark key="]" line="67" column="26" />
+        <mark key="." line="67" column="26" />
       </file>
       <file name="/Users/Shared/vf/node/backend/src/User.ts" timestamp="1502524085724">
         <mark key="[" line="6" column="6" />
@@ -91,10 +96,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CnZhciBtYWluOk1haW4gPSBuZXcg</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">KyA=</text>
+        <text />
       </register>
       <register name="0" type="2">
         <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
