@@ -1,0 +1,10 @@
+message GameResult {
+    repeated PlayerResult playerResultList = 1;
+    message PlayerResult {
+        required int64 playerId = 1;//玩家ID
+        optional string winPools = 2 [default = ""];//赢得奖池
+        optional int32 position =3;//座位号
+        optional int64 remainGold=4;//剩余筹码
+    }
+
+}

@@ -1,0 +1,9 @@
+
+option java_package = "com.xt.texas.core.message";
+
+option java_outer_classname = "PlayerBaseInfoProto";
+
+message PlayerBaseInfo {
+    optional int64 playerId = 1;//ID
+    optional int64 totalGold = 2;//总金币
+}

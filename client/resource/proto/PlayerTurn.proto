@@ -1,0 +1,15 @@
+
+option java_package = "com.xt.texas.core.message";
+
+option java_outer_classname = "PlayerTurnProto";
+message PlayerTurn{
+    optional int64 playerId=1;//玩家ID
+    optional int32 position=2;//玩家座位
+    optional int64 thinkEndTime=3;//思考结束时间(毫秒)
+    optional bool canCheck=4;//能否过牌
+    optional bool canCall=5;//能否跟注
+    optional bool needAllIn=6;//是否需要Allin
+    optional int64 callGold=7;//跟注额
+    optional int64 minRaiseGold=8;//最下加注额
+    optional int64 maxTurnBet=9;//当前圈最大下注额
+}
