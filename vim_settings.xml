@@ -33,7 +33,7 @@
         <mark key="." line="87" column="44" />
         <mark key="^" line="87" column="44" />
       </file>
-      <file name="/Users/Shared/git/node-egret-protobuf/backend/src/Main.ts" timestamp="1502940976478">
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/src/Main.ts" timestamp="1502941914250">
         <mark key="[" line="67" column="26" />
         <mark key="]" line="67" column="26" />
         <mark key="." line="67" column="26" />
@@ -49,6 +49,12 @@
         <mark key="]" line="67" column="12" />
         <mark key="." line="67" column="12" />
         <mark key="^" line="67" column="12" />
+      </file>
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1502942481509">
+        <mark key="[" line="65" column="5" />
+        <mark key="]" line="65" column="6" />
+        <mark key="^" line="65" column="6" />
+        <mark key="." line="65" column="6" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/package.json" timestamp="1502185828237">
         <mark key="[" line="2" column="5" />
