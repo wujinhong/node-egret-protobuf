@@ -27,7 +27,7 @@ class Main
                 }catch(e){
                 }
             });
-        })
+        });
     }
 
     /**
