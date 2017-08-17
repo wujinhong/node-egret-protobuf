@@ -1,8 +1,0 @@
-<application>
-  <component name="FileTypeManager" version="17">
-    <extensionMap>
-      <removed_mapping ext="md" approved="true" type="Markdown" />
-      <mapping ext="md" type="PLAIN_TEXT" />
-    </extensionMap>
-  </component>
-</application>
