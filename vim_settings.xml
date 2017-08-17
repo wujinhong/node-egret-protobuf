@@ -9,10 +9,10 @@
         <mark key="." line="59" column="4" />
         <mark key="^" line="59" column="4" />
       </file>
-      <file name="/Dummy.txt" timestamp="1502556702738">
+      <file name="/Dummy.txt" timestamp="1502960174572">
         <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
+        <mark key="]" line="0" column="3" />
+        <mark key="." line="0" column="3" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" timestamp="1502185705817">
         <mark key="'" line="18" column="45" />
@@ -50,11 +50,11 @@
         <mark key="." line="67" column="12" />
         <mark key="^" line="67" column="12" />
       </file>
-      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1502957758384">
-        <mark key="[" line="51" column="15" />
-        <mark key="]" line="65" column="11" />
-        <mark key="^" line="65" column="6" />
-        <mark key="." line="65" column="11" />
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1502960443883">
+        <mark key="[" line="51" column="17" />
+        <mark key="]" line="51" column="17" />
+        <mark key="^" line="3" column="17" />
+        <mark key="." line="51" column="17" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/package.json" timestamp="1502185828237">
         <mark key="[" line="2" column="5" />
@@ -104,10 +104,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text />
+        <text>交。svn改成Git</text>
       </register>
       <register name="-" type="4">
-        <text />
+        <text>交。svn改成Git</text>
       </register>
       <register name="0" type="2">
         <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
