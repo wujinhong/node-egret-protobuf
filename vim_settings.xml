@@ -50,11 +50,11 @@
         <mark key="." line="67" column="12" />
         <mark key="^" line="67" column="12" />
       </file>
-      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1502942481509">
-        <mark key="[" line="65" column="5" />
-        <mark key="]" line="65" column="6" />
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1502955601306">
+        <mark key="[" line="51" column="15" />
+        <mark key="]" line="65" column="11" />
         <mark key="^" line="65" column="6" />
-        <mark key="." line="65" column="6" />
+        <mark key="." line="65" column="11" />
       </file>
       <file name="/Users/Shared/vf/node/lib/protobuf/package.json" timestamp="1502185828237">
         <mark key="[" line="2" column="5" />
@@ -104,10 +104,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text encoding="base64">CQ==</text>
+        <text />
       </register>
       <register name="-" type="4">
-        <text encoding="base64">CQ==</text>
+        <text />
       </register>
       <register name="0" type="2">
         <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
