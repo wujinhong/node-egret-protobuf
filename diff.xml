@@ -1,0 +1,8 @@
+<application>
+  <component name="DiffManager">
+    <enableFiles value="true" />
+    <filesTool value="/usr/local/bin/bcomp" newValue="/usr/local/bin/bcomp" />
+    <mergeTool value="/usr/local/bin/bcomp" newValue="/usr/local/bin/bcomp" />
+    <mergeToolParameters value="%1 %2 %3 %4" />
+  </component>
+</application>

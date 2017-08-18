@@ -1,0 +1,164 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="/Users/Shared/vf/node/backend/tsconfig.json" timestamp="1502292880985">
+        <mark key="[" line="60" column="3" />
+        <mark key="]" line="59" column="4" />
+        <mark key="." line="59" column="4" />
+        <mark key="^" line="59" column="4" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1502960174572">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="3" />
+        <mark key="." line="0" column="3" />
+      </file>
+      <file name="/Users/Shared/vf/node/lib/protobuf/typings/protobuf.d.ts" timestamp="1502185705817">
+        <mark key="'" line="18" column="45" />
+        <mark key="[" line="2392" column="20" />
+        <mark key="]" line="2392" column="20" />
+        <mark key="." line="2392" column="20" />
+        <mark key="^" line="2392" column="20" />
+      </file>
+      <file name="/Users/Shared/vf/node/ws/tsconfig.json" timestamp="1502292815780">
+        <mark key="[" line="5" column="31" />
+        <mark key="]" line="5" column="30" />
+        <mark key="^" line="5" column="30" />
+        <mark key="." line="5" column="30" />
+      </file>
+      <file name="/Users/Shared/vf/node/client/src/socket/SocketConnector.ts" timestamp="1502186725605">
+        <mark key="[" line="87" column="50" />
+        <mark key="]" line="87" column="44" />
+        <mark key="." line="87" column="44" />
+        <mark key="^" line="87" column="44" />
+      </file>
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/src/Main.ts" timestamp="1502956638868">
+        <mark key="[" line="29" column="10" />
+        <mark key="]" line="67" column="26" />
+        <mark key="." line="67" column="26" />
+      </file>
+      <file name="/Users/Shared/vf/node/backend/src/User.ts" timestamp="1502524085724">
+        <mark key="[" line="6" column="6" />
+        <mark key="]" line="13" column="0" />
+        <mark key="n" line="12" column="11" />
+        <mark key="." line="13" column="0" />
+      </file>
+      <file name="/Users/Shared/vf/node/backend/src/Main.ts" timestamp="1502528150932">
+        <mark key="[" line="67" column="26" />
+        <mark key="]" line="67" column="12" />
+        <mark key="." line="67" column="12" />
+        <mark key="^" line="67" column="12" />
+      </file>
+      <file name="/Users/Shared/git/node-egret-protobuf/backend/tsconfig.json" timestamp="1503027414992">
+        <mark key="[" line="51" column="17" />
+        <mark key="]" line="51" column="17" />
+        <mark key="^" line="3" column="17" />
+        <mark key="." line="51" column="17" />
+      </file>
+      <file name="/Users/Shared/vf/node/lib/protobuf/package.json" timestamp="1502185828237">
+        <mark key="[" line="2" column="5" />
+        <mark key="]" line="2" column="37" />
+        <mark key="." line="2" column="37" />
+        <mark key="^" line="2" column="37" />
+      </file>
+      <file name="/Users/Shared/vf/node/ws/src/server.ts" timestamp="1502527146204">
+        <mark key="[" line="1" column="0" />
+      </file>
+      <file name="/Users/Shared/vf/node/backend/src/server.ts" timestamp="1502527286558">
+        <mark key="[" line="58" column="26" />
+        <mark key="]" line="58" column="29" />
+        <mark key="." line="58" column="29" />
+        <mark key="^" line="58" column="29" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1502528168252">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Users/Shared/vf/node/client/src/socket/SocketManager.ts" timestamp="1502527459985">
+        <mark key="[" line="23" column="0" />
+        <mark key="]" line="23" column="0" />
+        <mark key="." line="23" column="0" />
+      </file>
+      <file name="/Users/Shared/vf/node/client/src/socket/Package.ts" timestamp="1502246845672">
+        <mark key="[" line="16" column="51" />
+        <mark key="]" line="101" column="21" />
+        <mark key="." line="101" column="21" />
+      </file>
+      <file name="/Users/Shared/vf/node/client/src/socket/ProtoBufMgr.ts" timestamp="1502186646403">
+        <mark key="[" line="45" column="21" />
+        <mark key="]" line="45" column="57" />
+        <mark key="." line="45" column="57" />
+        <mark key="^" line="45" column="57" />
+      </file>
+      <file name="/Users/Shared/vf/node/package.json" timestamp="1502292493333">
+        <mark key="[" line="3" column="24" />
+        <mark key="]" line="3" column="24" />
+        <mark key="." line="3" column="24" />
+      </file>
+      <file name="/Users/Shared/git/node/README.md" timestamp="1502548124633">
+        <mark key="[" line="15" column="0" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="&quot;" type="4">
+        <text>交。svn改成Git</text>
+      </register>
+      <register name="-" type="4">
+        <text>交。svn改成Git</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">CQlwa2cucHV0U3RyaW5nKG1zZyk7CgkJdGhpcy5zYy5zZW5kUGtnKHBrZyk7Cg==</text>
+      </register>
+      <register name="1" type="4">
+        <text encoding="base64">CnZhciBtYWluOk1haW4gPSBuZXcg</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">aW1wb3J0ICogYXMgaHR0cCBmcm9tICd3cyc7Cg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgLy8gd3NzLmJpbmFyeVR5cGUgPSAnCg==</text>
+      </register>
+      <register name="8" type="4">
+        <text>blob';
+            // wss.binaryType = 'arraybuffer';</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+      <register name=":" type="4">
+        <text>w</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd>
+        <entry>s</entry>
+        <entry>w</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
