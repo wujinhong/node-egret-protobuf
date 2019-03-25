@@ -43,7 +43,7 @@ npm init
 
 　　cd project_folder
 
-　　tsc --rootDir src --outDir dist
+　　tsc --project . --outDir dist
 
 
 
